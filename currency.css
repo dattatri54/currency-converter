@@ -1,0 +1,134 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+}
+.container-form{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+   width: 400px;
+  max-width: 90%;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select,input,button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form input{
+    border: 1px solid gray;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    height: 2rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-container img{
+    max-width: 2rem;
+}
+
+/* .select-container i{
+    font-size: 2rem;
+
+} */
+
+.select-container select{
+    font-size: 1rem;
+}
+.btn{
+    height: 3rem;
+    margin-top: 3rem;
+}
+form button{
+    height: 3rem;
+    margin-top: 2rem;
+    background: linear-gradient(
+        135deg,
+        #8a2be2,
+        #6a0dad
+    );
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+form button:hover{
+    transform: translateY(-3px);
+}
+form h1{
+    margin-bottom: 2rem;
+}
+.con{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+footer p{
+    margin: 3px;
+}
+.tagline{
+    color:#666;
+    font-size:0.9rem;
+    margin-top:8px;
+    margin-bottom: 1rem;
+}
+.hero{
+    text-align:center;
+    color:white;
+    margin-bottom:2rem;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.1rem;
+    opacity:0.8;
+}
+.reset-btn{
+    height: 3rem;
+    margin-top: 1rem;
+    background-color: #dc3545;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.reset-btn:hover{
+    background-color: #c82333;
+}
